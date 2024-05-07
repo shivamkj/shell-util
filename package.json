@@ -1,0 +1,38 @@
+{
+  "name": "@shivamkj/shell-util",
+  "version": "1.0.0",
+  "description": "Extremely simple, small, and opinionated helpers that make it easy to write complex shell scripts in NodeJS",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shivamkj/shell-util.git"
+  },
+  "keywords": [
+    "bash",
+    "shell",
+    "script"
+  ],
+  "author": "Shivam Kumar Jha (https://github.com/shivamkj)",
+  "prettier": {
+    "trailingComma": "es5",
+    "tabWidth": 2,
+    "printWidth": 120,
+    "semi": false,
+    "singleQuote": true
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shivamkj/shell-util/issues"
+  },
+  "homepage": "https://github.com/shivamkj/shell-util#readme",
+  "dependencies": {
+    "fast-glob": "^3.3.2",
+    "minimist": "^1.2.8",
+    "node-fetch": "^3.3.2"
+  },
+  "devDependencies": {}
+}
